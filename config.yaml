@@ -1,0 +1,22 @@
+#Server configuration
+#Set available ports for application to use
+#Example: 
+# port: 8080
+# adminPort: 8081
+http:
+  port: 9080
+  adminPort: 9081
+
+spring:
+    appContextType: web
+
+    configLocationsType: classpath
+
+    configLocations:
+       - dropwizard-database.xml
+       - dropwizard-memcached.xml
+       - dropwizard-service.xml
+
+    resources:
+       - helloResource
+       - gameResource
