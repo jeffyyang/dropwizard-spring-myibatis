@@ -7,3 +7,7 @@ myibatis 3.2.3
 mybatis-spring 1.2.2
 com.google.code.simple-spring-memcached 3.3.0
 
+## append 
+
+spring memcached mysql  jesery restfull webservice
+
